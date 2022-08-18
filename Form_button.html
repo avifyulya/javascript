@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TOMBOL</title>
+</head>
+<body>
+    <script>
+        function ubahWarnaLB(warna){
+            document.bgColor = warna;
+        }
+        function ubahWarnaLD(warna){
+            document.fgColor = warna;
+        }
+    </script>
+    <h1>Test</h1>
+    <form>
+        <input type = "Button"
+                value = "Latar Belakang Hijau"
+                onclick = "ubahWarnaLB('Green')">
+        <input type = "Button"
+                value = "Latar Belakang Putih"
+                onclick = "ubahWarnaLB('White')">
+        <input type = "Button"
+                value = "Latar Belakang Salem"
+                onclick = "ubahWarnaLB('Salmon')">
+        <input type = "Button"
+                value = "Teks Kuning"
+                onclick = "ubahWarnaLD('Yellow')">
+        <input type = "Button"
+                value = "Teks Biru"
+                onclick = "ubahWarnaLD('Blue')">
+        <input type = "Button"
+                value = "Teks Silver"
+                onclick = "ubahWarnaLD('Silver')">
+    </form>
+<script>
+    document.write("Dimodifikasi terakhir pada "+document.lastModified);
+</script>
+</body>
+</html>
